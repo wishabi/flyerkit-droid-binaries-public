@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flipp.flyerkitsample" >
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="FlyerKit Sample"
+      android:name=".FlyerKitApplication"
+      android:theme="@style/Theme.AppCompat.Light">
+    <activity android:name=".FlyerListingActivity"
+        android:label="Flyer Listing" />
+    <activity android:name=".FlyerActivity"
+        android:label="Flyer"/>
+    <activity android:name=".FlyerItemActivity"
+        android:label="Item Details"/>
+    <activity android:name=".IframeActivity"
+        android:label="Iframe Details"/>
+    <activity android:name=".VideoActivity"
+        android:label="Video Details"/>
+    <activity android:name=".CouponActivity"
+        android:label="Coupon Details"/>
+    <activity android:name=".StoreListingActivity"
+        android:label="Store List"/>
+    <activity android:name=".PostalCodeActivity"
+              android:label="FlyerKit Sample App">
+          <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+      </activity>
+  </application>
+</manifest>
